@@ -1,0 +1,9 @@
+Harry=int(input("enter harry points:"))
+Ron=int(input("enter ron points:"))
+Hermione=int(input("enter hermione points:"))
+if(Hermione>Ron) and (Hermione>Harry):
+    print("Hermione has max points")
+elif(Ron>Harry) and (Ron>Hermione):
+         print("Ron has max points")
+else:
+  print("Harry has max points")
